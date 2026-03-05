@@ -25,11 +25,11 @@ The dataset used in this project is synthetic and is included in the repository.
 ## Sample Results
 Below are some sample charts generated during the analysis:
 
-![Delivery Time Distribution](images/delivery_time_distribution.png)
-*Figure 1. Distribution of delivery times. This chart shows how delivery times are distributed across all orders, helping to identify bottlenecks and outliers.*
+![Average Rating by Order Hour](images/average_rating_hour.png)
+*Figure 1. Distribution of delivery times by hour. This graph shows the times when customers are least likely to wait longer to receive food delivery.*
 
-![Customer Satisfaction by City](images/customer_satisfaction_city.png)
-*Figure 2. Customer satisfaction by city. This chart highlights which cities have higher or lower satisfaction scores, allowing for targeted operational improvements.*
+![Customer Rating vs Total Bill](images/rating_total_bill.png)
+*Figure 2. Distribution of customer ratings in relation to total bill. This chart shows if there is any relationship between customer rating and delivery cost*
 
 ## How to Use
 - All data processing and analysis are performed in Jupyter Notebooks located in the `notebooks` folder.
