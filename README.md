@@ -15,12 +15,18 @@ The dataset used in this project is synthetic and is included in the repository.
 - **Streamlit**: Interactive dashboard development
 - **Jupyter Notebook**: Exploratory data analysis and prototyping
 
-## Key Business Questions Addressed
-1. **At what specific minute do customers get angry about waiting for their food?**
-2. **Which cities have the most problems?**
-3. **Which restaurants have the most problems?**
-4. **At what time are customers most likely to be less tolerant of longer delivery times?**
-5. **Does the amount of money spent on the order influence customers' tolerance for long delivery waits?**
+## 💡 Key Business Insights
+Instead of simply asking questions, this project revealed practical operational metrics:
+
+1. **The Wait Time Critical Point:** It was discovered that customer tolerance plummets after **16 minutes**, where average ratings drop from **4.75 stars to 3 stars**. (Note: Because the original synthetic dataset lacked a logical correlation between delivery duration and customer satisfaction, this metric was simulated using a custom Python function to apply real-world business logic and demonstrate feature engineering capabilities).
+
+2. **Geographic Bottlenecks:** No single city was identified as the most problematic area, as all cities had roughly the same average rating. (Note: This perfect uniformity is likely an artifact of the synthetic nature of the data generation process)
+
+3. **Restaurant Type Performance:** No single restaurant type was found to have more issues with delivery times, as all restaurant types had roughly the same average rating. This may be due to the synthetic nature of the data. (Note: Similar to geography, this lack of variance is likely due to the dataset's synthetic nature).
+
+4. **Time Sensitivity:** Data indicates that customers who place orders at **8:00 AM** and **10:00 PM** are significantly less tolerant of delays, which directly impacts their ratings.
+
+5. **Value vs. Patience:** Analysis revealed that higher-value orders **do not show greater or lesser tolerance** for delivery delays compared to lower-value orders. (Note: Attributed to the uniform random distribution in the synthetic dataset).
 
 ## Sample Results
 Below are some sample charts generated during the analysis:
